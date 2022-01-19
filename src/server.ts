@@ -20,4 +20,4 @@ app.use((req:Request, res:Response) => {
     res.render('page/404')
 });
 
-app.use(3334)
+app.listen(80)
