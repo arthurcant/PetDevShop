@@ -10,10 +10,6 @@ export const searchBar = (req:Request, res:Response) => {
 
     res.render("pages/page", {
         menu: createMenuObject.createMenuObject(''),
-        banner: {
-            title: "",
-            background: ""
-        },
         list
     })
 
