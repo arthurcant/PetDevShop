@@ -15,7 +15,7 @@ export const home = (req:Request, res:Response) => {
     })
 }
 
-export const dogs = (req:Request, res:Response) {
+export const dogs = (req:Request, res:Response) => {
     let list = petMethods.getFromType('dog')
 
     res.render('pages/page', {
@@ -52,14 +52,8 @@ export const fishes = (req: Request, res: Response) => {
             background: 'banner_cat.jpg'
         },
         list
-    })
-
-
-
-    
-
+    })    
 }
-
 
 
 
