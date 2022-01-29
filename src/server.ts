@@ -20,6 +20,6 @@ app.use((req:Request, res:Response) => {
     res.render("pages/404");
 })
 
-app.listen(3333)
+app.listen(process.env.PORT)
 
 
