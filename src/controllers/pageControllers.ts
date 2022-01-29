@@ -49,7 +49,7 @@ export const fishes = (req: Request, res: Response) => {
         menu: createMenuObject('fish'),
         banner: {
             title: 'Peixes',
-            background: 'banner_cat.jpg'
+            background: 'banner_fish.jpg'
         },
         list
     })    
