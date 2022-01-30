@@ -8,7 +8,7 @@ Run the follow command in your machine to install the dependencies:
 
 > npm install
 
-Package i used and that you've got to your machine to run this project:
+Packages installed as global that i used and you've got to your machine to run this project:
 
 * typescript
 * mustache
